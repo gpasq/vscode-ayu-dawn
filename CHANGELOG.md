@@ -1,0 +1,318 @@
+If you run into any issues, please report them at <https://github.com/ayu-theme/vscode-ayu/issues>
+
+## 1.5.0
+
+`2026-10-16`
+
+- `AGENTS.md` gets its own icon: a terminal prompt with a spark
+- TypeScript icons use TypeScript blue, with a deeper shade in Ayu Light
+- JavaScript and TypeScript test files, configs, type definitions and source maps share the JS and TS icon frame and add a check mark, a gear, a dashed outline or a map pin
+- TSX files get their own icon, and `jsconfig.json` shows a JavaScript icon instead of the TypeScript one
+- New icons for `.env` files, `go.mod`, `.nvmrc` and `.node-version`
+- `.prettierignore` shows the Prettier icon
+- Icons for text, logs, notes, to-dos, settings, preferences and archives are redrawn to match the rest of the set
+- HTML, JSP, Lua, Composer, audio, HLSL and commitlint icons are simpler and read clearly at small sizes
+- Brand icons for Adobe apps, Babel, ESLint, Elixir, Erlang, Gradle, nginx, PowerShell, Sublime Text, webpack and others are sharp at any display scale
+
+## 1.4.1
+
+`2026-10-11`
+
+- The bordered themes mark the active tab with a single accent line along its top edge, so the connected tabs in VS Code's modern UI join the editor cleanly
+- The tab bar in the bordered themes is lighter, closer to the side bar
+
+## 1.4.0
+
+`2026-09-28`
+
+- Unbordered themes are back: Ayu Light, Mirage and Dark Unbordered drop the dividers between the side bar, editor, panel, title bar and status bar, so the window reads as one surface
+- In VS Code's modern UI, the unbordered themes lay the panels flush instead of floating them as separate islands
+- If you picked an unbordered theme before 1.2.0, or one of the "(legacy)" themes since, you get the borderless look back with no change to your settings
+
+## 1.3.0
+
+`2026-09-27`
+
+- New file icons for Zig, Nix, Gleam, Odin, V, Crystal, Solidity, Protobuf, Prisma, Astro, MDX, Handlebars, Nunjucks, templ, GLSL, HLSL, WGSL, Metal, CUDA, Assembly, HTTP, VB, GDScript, reStructuredText, AsciiDoc and Org
+- F#, Objective-C and Objective-C++ get their own icons instead of the C# and C/C++ ones
+- Icons for build and project files: CMake, just, Taskfile, Jenkins, GitLab CI, `.env`, `tsconfig.json`, `go.mod`, `requirements.txt` and `pyproject.toml`
+- Icons for web tooling: Next.js, Nuxt, Gatsby, Vite, Vitest, Turbo, Nx, Biome, Deno, bun, pnpm, esbuild, SWC, Parcel, Lerna, Vercel, Netlify, Cloudflare, Firebase, Drizzle, Playwright, Cypress, Storybook, Renovate, Husky, lint-staged, commitlint and Browserslist
+- JavaScript and TypeScript test files, type definitions and source maps have their own icons
+- Config files for ESLint, Jest, PostCSS, Babel, Svelte, Astro and Tailwind in their newer formats show the matching icon
+- XML, INI, `.cfg`, `.conf`, JSONC, JSON5 and web manifest files get icons
+- The LaTeX icon is sharper, and LaTeX packages, classes and BibTeX styles get icons
+
+## 1.2.2
+
+`2026-09-27`
+
+- New file icons for Terraform, Nim, Robot Framework, EJS and BibTeX
+- MATLAB files show the MATLAB icon when a MATLAB extension is installed
+- `compose.yaml` and `compose.yml` show the Docker icon
+
+## 1.2.1
+
+`2026-09-27`
+
+- New screenshots of all three themes in the modern UI
+- The README explains the "(legacy)" entries in the theme picker
+
+## 1.2.0
+
+`2026-09-27`
+
+- Support for VS Code's modern UI: floating panels sit on a darker shell with their own borders, and tabs and activity bar items use pill highlights
+- Ayu Light, Mirage and Dark now always have borders. The former borderless themes now look the same, are listed as "(legacy)", and will be removed in a future release, so switch to the plain Ayu Light, Mirage or Dark
+- Title bar and status bar use the darker shell color
+- Command center border matches the panel borders
+- Files with merge conflicts are colored in the explorer and source control views
+- De-emphasized list items are dimmed instead of red
+- Diff headers use the theme's purple
+
+## 1.1.12
+
+`2026-04-09`
+
+- Add icon for claude.md file
+
+## 1.1.9
+
+`2026-02-13`
+
+- More prominent styling of custom menus
+
+## 1.1.8
+
+`2026-02-07`
+
+- Fix the hover/active background of action buttons in action bar and toolbar
+
+## 1.1.7
+
+`2026-01-03`
+
+- Fix the background of the chat confirmation requests
+
+## 1.1.5
+
+`2025-12-24`
+
+- Support semantic highlighting, especially for languages like Rust
+- Colors in chat interfaces (slash commands, bubbles, etc.)
+- Proper shadows/dividers for sticky scrolls
+- Make popup panels (Find/Replace, Command Prompt, etc) prominent
+- Several new icons in the Ayu icon theme and refinements to existing SVG ones
+- More color balancing in the Dark theme's UI
+- Increased contrast in the Explorer for git entries (markers for added/modified/removed files/directories)
+- Marginally increase contrast of the syntax in the Light theme, specifically functions and decorators
+- Increase regular text's contrast in the editor in Light theme
+- Add missing colors for non-default activity bar positions (top or bottom)
+
+## 1.0.2
+
+`2021-07-4`
+
+- Fixed bracket match
+
+## 1.0.1
+
+`2021-07-3`
+
+- Fixed secndary buttons
+
+## 1.0.0
+
+`2021-07-2`
+
+- Semantic highlighting
+- Improved color contrast
+- Revised dark theme
+- Updated/added file icons
+- Revised UI colors
+
+## 0.20.0
+
+`2020-06-16`
+
+- Fix for [Issue 101](https://github.com/ayu-theme/vscode-ayu/issues/101)
+
+## 0.20.0
+
+`2020-06-16`
+
+- Add webpack, rollup, c header and graphql icons, more details: [PR](https://github.com/ayu-theme/vscode-ayu/pull/100)
+- Contrast improvements:
+  - Dark theme got more prominent UI colors
+  - Light theme got darker foreground color
+  - Errors in explorer have highlight color matching the themes
+  - Search in explorer is fixed
+  - Ident guides in light theme got a bit fainter
+  - Ident guides in the explorer match those in the editor
+  - Active tab in bordered version lost bottom border
+  - Hover/Selection in status bar matches the themes
+  - Sidebar group titles got borders
+  - Icons throughout the editor have consistent colors
+  - Some other tweaks I can't recall...
+
+## 0.19.0
+
+`2020-06-11`
+
+- Fix selection and word highlight, more details: [PR](https://github.com/ayu-theme/vscode-ayu/pull/98)
+- Fix jest icon
+- Add Reasonml & Elm & C# icon
+
+## 0.18.0
+
+`2019-02-04`
+
+- Fix unreadable ansi brightWhite in light terminal theme
+- Adds jest & dart icon
+
+## 0.17.0
+
+`2018-11-14`
+
+- Add bordered versions of all 3 themes with improved focus on editing;
+- Fix Java, Python, Haskell and Go highlighting issues;
+- Improve contrast in Dark theme;
+- Balance Light theme's colours for better balance both on P3 and sRGB displays;
+- Unify terminal colours
+
+**(All by [dempfi](https://github.com/dempfi)'s [PR](https://github.com/teabyii/vscode-ayu/pull/70))**
+
+## 0.16.0
+
+`2018-08-30`
+
+- Fix functions' arguments colours (thanks to [dempfi](https://github.com/dempfi))
+
+## 0.15.0
+
+`2018-08-17`
+
+- Thanks to [dempfi](https://github.com/dempfi)'s [PR](https://github.com/teabyii/vscode-ayu/pull/60) for the changes in this release
+- Use ayu colors from delicated package
+- Update color schemes to match those of recent versions in sublime theme
+- Update UI colors to reduce contrast, and improve focus on editor
+
+## 0.14.0
+
+`2018-03-09`
+
+- Updated missing ayu icons
+
+## 0.13.0
+
+`2018-03-03`
+
+- Improve Elixir and Ruby highlighting for modules
+- Update icons to match new ayu icons
+
+## 0.12.0
+
+`2018-01-11`
+
+- Add JSDoc instance support
+
+## 0.11.2
+
+`2018-01-04`
+
+- Fix syntax on functions with "support.function" scope
+
+## 0.11.1
+
+`2017-12-22`
+
+- Fix issue with error colors to scrollbar
+
+## 0.11.0
+
+`2017-12-22`
+
+- Adding warning and error colors to scrollbar
+- Colors for markdown inline and block code
+- Add accent color to active tab border
+
+## 0.10.0
+
+`2017-11-13`
+
+- Use correct colors for JSX tags
+
+## 0.9.0
+
+`2017-11-13`
+
+- Hide explorer arrows in file icon theme
+
+## 0.8.0
+
+`2017-09-21`
+
+- Show border on activity bar
+
+## 0.7.0
+
+`2017-09-19`
+
+- Thanks to [dempfi](https://github.com/dempfi) for the changes in this release
+- Updated logo that is shown in vs market
+- Changed background for active tab
+- Added border to titlebar and statusbar
+- Other small improvements for inputs and such
+
+## 0.6.0
+
+`2017-08-24`
+
+- Use border for active input option
+
+## 0.5.0
+
+`2017-08-11`
+
+- Improved text contrast in dark and mirage themes
+
+## 0.4.0
+
+`2017-06-21`
+
+- Theming for the VSCode 1.13 release
+- Added theming of welcome page and interactive playground
+- Fixed:
+  - [Tree selection inactive color not visible](https://github.com/teabyii/vscode-ayu/issues/12)
+  - [Change status bar highlight](https://github.com/teabyii/vscode-ayu/issues/13)
+  - [Use correct colors for input validation](https://github.com/teabyii/vscode-ayu/issues/14)
+  - [Add border between file manager and editor](https://github.com/teabyii/vscode-ayu/issues/15)
+  - [Change the color of warning/error squiggles](https://github.com/teabyii/vscode-ayu/issues/16)
+
+## 0.3.0
+
+`2017-05-18`
+
+- Thanks for [@pahen](https://github.com/pahen)'s [PR](https://github.com/teabyii/vscode-ayu/pull/8) for theming of entire workbench
+- Use `build.js` to generate the 3 themes from the colors schemes defined in [ayu-colors](https://github.com/ayu-theme/ayu-colors)
+- Use `npm run package` to build VSIX package
+- Fixed:
+  - [VSCode ayu light selection + find highlight = bad contrast](https://github.com/teabyii/vscode-ayu/issues/3)
+  - [wrong icon filename for coffeescript](https://github.com/teabyii/vscode-ayu/issues/6)
+
+## 0.2.1
+
+`2016-11-16`
+
+Fixed: [Whitespace color is not right](https://github.com/jsenjoy/vscode-ayu/issues/2)
+
+## 0.2.0
+
+`2016-11-08`
+
+Update from ayu@2.0.0, add Mirage theme
+
+## 0.1.0
+
+`2016-10-14`
+
+First version which forks ayu@1.3.2

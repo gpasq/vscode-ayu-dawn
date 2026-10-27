@@ -1,0 +1,14 @@
+node_modules
+assets
+!assets/logo.png
+test
+package-lock.json
+.vscode
+src
+ansi.js
+*.vsix
+AGENTS.md
+CLAUDE.md
+.gitignore
+tsconfig.json
+.claude

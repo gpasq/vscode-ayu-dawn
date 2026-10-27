@@ -1,0 +1,90 @@
+{
+  "name": "ayu-dawn",
+  "displayName": "Ayu Dawn",
+  "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
+  "version": "1.5.0",
+  "publisher": "GregPasquariello",
+  "author": "Greg Pasquariello",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpasq/vscode-ayu-dawn"
+  },
+  "bugs": {
+    "url": "https://github.com/gpasq/vscode-ayu-dawn/issues"
+  },
+  "engines": {
+    "vscode": "^1.63.0",
+    "node": ">=22.18.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icon-theme",
+    "theme",
+    "ayu"
+  ],
+  "homepage": "https://github.com/gpasq/vscode-ayu-dawn",
+  "icon": "assets/logo.png",
+  "contributes": {
+    "themes": [
+      {
+        "id": "Ayu Dawn Light Bordered",
+        "label": "Ayu Dawn Light",
+        "uiTheme": "vs",
+        "path": "./ayu-dawn-light.json"
+      },
+      {
+        "id": "Ayu Dawn Mirage Bordered",
+        "label": "Ayu Dawn Mirage",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-dawn-mirage.json"
+      },
+      {
+        "id": "Ayu Dawn Dark Bordered",
+        "label": "Ayu Dawn Dark",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-dawn-dark.json"
+      },
+      {
+        "id": "Ayu Dawn Light",
+        "label": "Ayu Dawn Light Unbordered",
+        "uiTheme": "vs",
+        "path": "./ayu-dawn-light-unbordered.json"
+      },
+      {
+        "id": "Ayu Dawn Mirage",
+        "label": "Ayu Dawn Mirage Unbordered",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-dawn-mirage-unbordered.json"
+      },
+      {
+        "id": "Ayu Dawn Dark",
+        "label": "Ayu Dawn Dark Unbordered",
+        "uiTheme": "vs-dark",
+        "path": "./ayu-dawn-dark-unbordered.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "ayu-dawn",
+        "label": "Ayu Dawn",
+        "path": "./ayu-dawn-icons.json"
+      }
+    ]
+  },
+  "scripts": {
+    "start": "tsx --watch ./src/build.ts",
+    "build": "tsx ./src/build.ts && vsce package",
+    "test": "tsx --test src/*.test.ts",
+    "colors": "tsx ./src/coverage.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.0",
+    "@vscode/vsce": "^4.0.0",
+    "ayu": "file:../ayu-colors",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3"
+  }
+}
