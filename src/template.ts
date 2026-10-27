@@ -16,7 +16,7 @@ const terminalColors = {
     brightWhite: '#ffffff'
   },
   mirage: {
-    black: ayu.mirage.ui.line.hex(),
+    black: '#171b24',
     white: '#c7c7c7',
     brightBlack: '#686868',
     brightWhite: '#ffffff'

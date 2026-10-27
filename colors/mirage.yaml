@@ -46,14 +46,14 @@ vcs:
   modified: 80BFFF
   removed: F27983
 surface:
-  sunk: 181C26
-  base: 1F2430
+  sunk: 464951
+  base: 343A43
   lift: "242936"
   over: FFFFFF
 editor:
   fg: CCCAC2
   bg: $surface.lift
-  line: 1A1F29
+  line: 313642
   selection:
     active: 409FFF A0.25
     inactive: $editor.selection.active A0.13
@@ -69,15 +69,15 @@ editor:
 ui:
   fg: 707A8C
   bg: $surface.base
-  line: 171B24
+  line: 424851
   selection:
     active: 637599 A0.15
     normal: 69758C A0.12
   panel:
-    bg: 282E3B
+    bg: 393C47
     shadow: 000000 A0.2
   popup:
-    bg: 1C212C
+    bg: 393C47
     shadow: $ui.panel.shadow A0.3
 common:
   accent:
