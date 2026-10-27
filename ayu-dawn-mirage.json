@@ -258,7 +258,7 @@
 		"keybindingLabel.foreground": "#ffffff",
 		"keybindingLabel.border": "#cccac21a",
 		"keybindingLabel.bottomBorder": "#cccac21a",
-		"terminal.background": "#363944",
+		"terminal.background": "#242735",
 		"terminal.foreground": "#ffffff",
 		"terminal.ansiBlack": "#171b24",
 		"terminal.ansiRed": "#f28273",

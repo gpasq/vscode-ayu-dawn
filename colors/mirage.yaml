@@ -25,6 +25,7 @@ syntax:
   constant: $palette.purple.l4
   operator: $palette.pink.l2
 terminal:
+  bg: $editor.bg
   black: 0A0000
   red: $syntax.markup -L0.05
   green: $syntax.string -L0.07

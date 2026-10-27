@@ -42,6 +42,8 @@ export interface Scheme {
     operator: Color
   }
   terminal: {
+    /** Terminal background in bordered themes */
+    bg: Color
     black: Color
     red: Color
     green: Color

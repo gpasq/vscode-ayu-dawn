@@ -470,7 +470,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'keybindingLabel.bottomBorder': scheme.editor.fg.alpha(0.1).hex(),
 
       // TERMINAL
-      'terminal.background': scheme.ui.bg.hex(),
+      'terminal.background': bordered ? scheme.terminal.bg.hex() : scheme.ui.bg.hex(),
       'terminal.foreground': scheme.ui.text.active.hex(),
       'terminal.ansiBlack': terminalColors[variant].black,
       'terminal.ansiRed': scheme.syntax.markup.darken(0.1).hex(),

@@ -37,6 +37,7 @@ syntax:
   # Operators (+, -, =, etc.)
   operator: $palette.pink.l4
 terminal:
+  bg: $ui.bg
   black: $palette.gray.l1
   red: $syntax.markup
   green: $syntax.string

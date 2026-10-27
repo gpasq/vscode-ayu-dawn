@@ -25,6 +25,7 @@ syntax:
   constant: $palette.purple.l3
   operator: $palette.pink.l3
 terminal:
+  bg: $ui.bg
   black: 0A0000
   red: $syntax.markup -L0.07
   green: $syntax.string -L0.07
