@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+`2026-10-27`
+
+- No changes to the themes or icons
+
 ## 1.0.0
 
 `2026-10-27`
