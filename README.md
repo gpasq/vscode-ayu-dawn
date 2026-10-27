@@ -1,8 +1,4 @@
 <p align="center">
-  <img src="./assets/header.png" alt="Ayu Dawn theme for VS Code">
-</p>
-
-<p align="center">
   <a href="#install">Install</a> •
   <a href="#screenshots">Screenshots</a> •
   <a href="#credits">Credits</a>
