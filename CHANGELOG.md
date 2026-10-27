@@ -5,7 +5,8 @@
 `2026-10-27`
 
 - A shorter Marketplace description, more search keywords, and a listing banner in the Mirage editor color
-- No changes to the themes or icons
+- Mirage is listed before Light in the theme picker and on theme sites
+- No changes to the theme colors or icons
 
 ## 1.0.0
 

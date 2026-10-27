@@ -41,28 +41,28 @@
   "contributes": {
     "themes": [
       {
-        "id": "Ayu Dawn Light Bordered",
-        "label": "Ayu Dawn Light",
-        "uiTheme": "vs",
-        "path": "./ayu-dawn-light.json"
-      },
-      {
         "id": "Ayu Dawn Mirage Bordered",
         "label": "Ayu Dawn Mirage",
         "uiTheme": "vs-dark",
         "path": "./ayu-dawn-mirage.json"
       },
       {
-        "id": "Ayu Dawn Light",
-        "label": "Ayu Dawn Light Unbordered",
-        "uiTheme": "vs",
-        "path": "./ayu-dawn-light-unbordered.json"
-      },
-      {
         "id": "Ayu Dawn Mirage",
         "label": "Ayu Dawn Mirage Unbordered",
         "uiTheme": "vs-dark",
         "path": "./ayu-dawn-mirage-unbordered.json"
+      },
+      {
+        "id": "Ayu Dawn Light Bordered",
+        "label": "Ayu Dawn Light",
+        "uiTheme": "vs",
+        "path": "./ayu-dawn-light.json"
+      },
+      {
+        "id": "Ayu Dawn Light",
+        "label": "Ayu Dawn Light Unbordered",
+        "uiTheme": "vs",
+        "path": "./ayu-dawn-light-unbordered.json"
       }
     ],
     "iconThemes": [
