@@ -17,3 +17,4 @@
 .dart_tool
 pubspec.lock
 *.vsix
+PROMOTION.md
