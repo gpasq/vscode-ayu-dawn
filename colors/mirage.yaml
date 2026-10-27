@@ -68,6 +68,9 @@ editor:
     normal: $ui.fg A0.23
 ui:
   fg: 707A8C
+  text:
+    normal: FFFFFF
+    active: FFFFFF
   bg: $surface.base
   line: 424851
   selection:

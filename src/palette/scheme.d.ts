@@ -93,6 +93,11 @@ export interface Scheme {
   }
   ui: {
     fg: Color
+    /** Application text: normal for most labels, active for selected and focused items */
+    text: {
+      normal: Color
+      active: Color
+    }
     bg: Color
     line: Color
     selection: {
