@@ -1,4 +1,4 @@
-import * as ayu from 'ayu'
+import * as ayu from './palette'
 
 export type SchemeName = 'light' | 'dark' | 'mirage'
 

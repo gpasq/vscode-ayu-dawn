@@ -75,16 +75,18 @@
     ]
   },
   "scripts": {
-    "start": "tsx --watch ./src/build.ts",
+    "start": "tsx watch --include ./colors ./src/build.ts",
     "build": "tsx ./src/build.ts && vsce package",
     "test": "tsx --test src/*.test.ts",
     "colors": "tsx ./src/coverage.ts"
   },
   "devDependencies": {
+    "@types/culori": "^4.0.1",
     "@types/node": "^24.19.0",
     "@vscode/vsce": "^4.0.0",
-    "ayu": "file:../ayu-colors",
+    "culori": "^4.0.2",
     "tsx": "^4.23.15",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "yaml": "^2.9.1"
   }
 }

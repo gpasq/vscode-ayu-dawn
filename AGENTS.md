@@ -1,23 +1,25 @@
 # ayu for VS Code
 
-The VS Code port of ayu: three color themes (Light, Mirage and Dark) and the ayu file icon theme. The palette itself is not defined here. It comes from the `ayu` npm package, developed in the sibling repo [ayu-colors](https://github.com/ayu-theme/ayu-colors). This repo decides which palette color each VS Code UI and syntax element uses.
+Ayu Dawn, a fork of the VS Code port of ayu: three color themes (Light, Mirage and Dark) and a file icon theme. The palette and icons were brought in from [ayu-colors](https://github.com/ayu-theme/ayu-colors) and now live here.
 
-## Setup
+## Palette
 
-`ayu` is a `file:../ayu-colors` dependency, so both repos have to be checked out side by side, and ayu-colors has to be built (`npm run build` there) before anything here runs. A palette change in ayu-colors reaches this repo after it is rebuilt there, with no publish needed.
+- `colors/<variant>.yaml` defines each variant's colors. A `palette` section generates five lightness steps (`l1` to `l5`) per hue within `range`, and every other value is a hex or a `$path.to.color` reference, optionally followed by modifiers: `A` sets alpha, `L` and `C` set OKLCH lightness and chroma, and a leading `+` or `-` shifts them instead.
+- `src/palette/` loads the YAML (`yaml-parser.ts`, color math in `color.ts`) and exports the `light`, `mirage` and `dark` schemes and the icon map. `scheme.d.ts` types the schemes by hand: add a key there when you add one to the YAML, in all three files.
+- `colors/icons.yaml` maps file names and extensions to the image files in `icons/`.
 
 ## Generated files
 
-Every `ayu-dawn-*.json` at the root and everything in `icons/` is build output, committed so that the extension ships without a build step. Never edit them by hand. The build overwrites them, and anything added directly to them is silently lost on the next build.
+Every `ayu-dawn-*.json` at the root is build output, committed so that the extension ships without a build step. Never edit them by hand. The build overwrites them, and anything added directly to them is silently lost on the next build.
 
 - **Color themes** are generated from `src/`. Each variant is written twice, as `ayu-dawn-<variant>.json` (bordered) and `ayu-dawn-<variant>-unbordered.json`. The unbordered themes keep the plain `Ayu Dawn <Variant>` IDs.
-- **Icons**, both the image files and which file names and extensions map to which icon, belong to ayu-colors. A new file icon goes into ayu-colors. This repo only adds the mapping from VS Code language IDs to those icons.
+- **Icon theme** `ayu-dawn-icons.json` is generated from `colors/icons.yaml` plus the VS Code language ID mapping in `src/icon-template.ts`. A new file icon goes into `icons/` and `colors/icons.yaml`.
 
-After changing the template, run the build and commit the regenerated JSON alongside the source change.
+After changing the template or the palette, run the build and commit the regenerated JSON alongside the source change.
 
 ## Commands
 
-- `npm start`: rebuild the themes on every source change.
+- `npm start`: rebuild the themes on every source or palette change.
 - `npm test`: unit tests.
 - `npx tsc --noEmit -p .`: type check (`tsx` runs the build scripts without one).
 - `npm run colors`: compare the theme against the colors registered by the locally installed VS Code (set `VSCODE_APP` to point at another install). It lists which colors ayu leaves at VS Code defaults (modern UI ones first), deprecated keys ayu still sets, and keys VS Code no longer knows. `terminal.ansi*` always shows up as unknown: VS Code registers them dynamically, where the script cannot see them.
@@ -29,15 +31,15 @@ The **Preview theme** launch configuration (F5) opens an Extension Development H
 
 ## Theme conventions
 
-- Colors come from the scheme's semantic groups (`ui`, `editor`, `syntax`, `vcs`, `common`), with variations derived through alpha or lightness. Apart from a few terminal greys and the translucent black of `statusBarItem.prominentHoverBackground` there are no hex literals. When the theme needs a color the scheme lacks, add it in ayu-colors.
+- Colors come from the scheme's semantic groups (`ui`, `editor`, `syntax`, `vcs`, `common`), with variations derived through alpha or lightness. Apart from a few terminal greys and the translucent black of `statusBarItem.prominentHoverBackground` there are no hex literals. When the theme needs a color the scheme lacks, add it to the palette YAML.
 - `darken(x)` and `brighten(x)` shift OKLCH lightness by `x / 10`. `alpha(x)` sets opacity.
 - VS Code's modern UI, the floating "islands" layout, uses its own tokens (`modern*`, `surface.*`, `editor.border`). Any the theme leaves unset fall back to derivations of classic tokens, so they change whenever those do. Check them in the preview.
 - Check every change in all three variants, bordered and unbordered, in both the classic and the modern UI. Unbordered themes use the side bar background for the editor, title bar, status bar and modern UI shell, and hide every divider and card outline by painting it in that same color. Light diverges from Mirage and Dark in places (badge foreground, terminal greys).
 
 ## Tooling constraints
 
-- TypeScript stays on 6.x. TypeScript 7 ships only the native compiler, which the editor language servers and ayu-colors' Next.js designer cannot load.
-- `src/` and `test/` are excluded from the published package (see `.vscodeignore`).
+- TypeScript stays on 6.x. TypeScript 7 ships only the native compiler, which the editor language servers cannot load.
+- `src/`, `colors/` and `test/` are excluded from the published package (see `.vscodeignore`).
 - Formatting follows `.prettierrc.js`: no semicolons, single quotes, 100 columns.
 
 ## Releasing

@@ -1,4 +1,4 @@
-import { icons } from 'ayu/icons'
+import { icons } from './palette'
 
 const sortObject = <T>(obj: Record<string, T>): Record<string, T> =>
   Object.fromEntries(Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)))

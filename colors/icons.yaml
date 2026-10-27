@@ -1,0 +1,1150 @@
+default: file_type_default.svg
+
+folder:
+  dark:
+    collapsed: folder_dark@2x.png
+    expanded: folder_opened_dark@2x.png
+  light:
+    collapsed: folder_light@2x.png
+    expanded: folder_opened_light@2x.png
+
+files:
+  # Languages
+  actionscript: file_type_actionscript@2x.png
+  applescript: file_type_applescript.svg
+  c: file_type_c.svg
+  cf: file_type_cf@2x.png
+  clojure: file_type_clojure.svg
+  coffeescript: file_type_coffeescript.svg
+  cpp: file_type_cpp.svg
+  csharp: file_type_csharp.svg
+  dart: file_type_dart.svg
+  dlang: file_type_dlang.svg
+  dotnet: file_type_dotnet@2x.png
+  elm: file_type_elm.svg
+  erlang: file_type_erlang.svg
+  ex: file_type_ex.svg
+  go: file_type_go.svg
+  groovy: file_type_groovy.svg
+  haskell: file_type_haskell.svg
+  haxe: file_type_haxe.svg
+  java: file_type_java.svg
+  julia: file_type_julia.svg
+  kotlin: file_type_kotlin.svg
+  lisp: file_type_lisp.svg
+  lsl: file_type_lsl@2x.png
+  lua: file_type_lua.svg
+  matlab: file_type_matlab@2x.png
+  nim: file_type_nim.svg
+  nsis: file_type_nsis@2x.png
+  ocaml: file_type_ocaml.svg
+  perl: file_type_perl.svg
+  php: file_type_php.svg
+  powershell: file_type_powershell.svg
+  psm: file_type_psm.svg
+  puppet: file_type_puppet.svg
+  python: file_type_python.svg
+  R: file_type_R@2x.png
+  reasonml: file_type_reasonml.svg
+  riot: file_type_riot@2x.png
+  ruby: file_type_ruby.svg
+  rust: file_type_rust.svg
+  scala: file_type_scala@2x.png
+  shell: file_type_shell.svg
+  stata: file_type_stata@2x.png
+  swift: file_type_swift.svg
+  tcl: file_type_tcl.svg
+  vim: file_type_vim@2x.png
+  wasm: file_type_wasm.svg
+
+  # Web
+  angular: file_type_angular.svg
+  css: file_type_css.svg
+  html: file_type_html.svg
+  js: file_type_js.svg
+  jsp: file_type_jsp.svg
+  jsx: file_type_jsx@2x.png
+  less: file_type_less@2x.png
+  liquid: file_type_liquid.svg
+  postcss: file_type_postcss@2x.png
+  sass: file_type_sass.svg
+  scss: file_type_scss.svg
+  stylus: file_type_stylus@2x.png
+  svelte: file_type_svelte.svg
+  typescript:
+    dark: file_type_typescript.svg
+    light: file_type_typescript_light.svg
+  tsx: file_type_tsx.svg
+  vue: file_type_vue.svg
+
+  # Templates
+  blade: file_type_blade.svg
+  ejs: file_type_ejs.svg
+  haml: file_type_haml@2x.png
+  mustache: file_type_mustache@2x.png
+  pug: file_type_pug@2x.png
+  slim: file_type_slim.svg
+  twig: file_type_twig.svg
+
+  # Data
+  csv: file_type_csv.svg
+  gql: file_type_gql.svg
+  graphviz: file_type_graphviz.svg
+  json: file_type_json.svg
+  plist: file_type_plist.svg
+  sql: file_type_sql@2x.png
+  yaml: file_type_yaml.svg
+
+  # Config & Tools
+  agents: file_type_agents.svg
+  apache: file_type_apache.png
+  babel: file_type_babel.svg
+  bower: file_type_bower@2x.png
+  cargo: file_type_cargo.svg
+  circleci: file_type_circleci.svg
+  claude: file_type_claude.svg
+  composer: file_type_composer.svg
+  docker: file_type_docker@2x.png
+  editorconfig: file_type_editorconfig@2x.png
+  eslint: file_type_eslint.svg
+  git: file_type_git.svg
+  gradle: file_type_gradle.svg
+  gruntfile: file_type_gruntfile.svg
+  gulpfile: file_type_gulpfile@2x.png
+  jest: file_type_jest@2x.png
+  nginx: file_type_nginx.svg
+  nodejs: file_type_nodejs.svg
+  npm: file_type_npm.svg
+  prettier: file_type_prettier.svg
+  procfile: file_type_procfile.svg
+  rails: file_type_rails@2x.png
+  rollup: file_type_rollup.svg
+  stylelint: file_type_stylelint.svg
+  sublime: file_type_sublime.svg
+  tailwind: file_type_tailwind.svg
+  tern: file_type_tern@2x.png
+  toml:
+    dark: file_type_toml.svg
+    light: file_type_toml_light.svg
+  webpack: file_type_webpack.svg
+  yarn: file_type_yarn@2x.png
+
+  # Design & Media
+  ae: file_type_ae.svg
+  ai: file_type_ai.svg
+  audio: file_type_audio.svg
+  font: file_type_font.svg
+  image: file_type_image.svg
+  indesign: file_type_indesign.svg
+  jupyter: file_type_jupyter.svg
+  maya: file_type_maya.svg
+  pdf: file_type_pdf.svg
+  premiere: file_type_premiere.svg
+  psd: file_type_psd.svg
+  sketch: file_type_sketch.svg
+  video: file_type_video@2x.png
+
+  # Infrastructure
+  terraform: file_type_terraform.svg
+
+  # Testing
+  robotframework: file_type_robotframework.svg
+
+  # Documents
+  excel: file_type_excel@2x.png
+  license: file_type_license.svg
+  log: file_type_log.svg
+  markdown: file_type_markdown.svg
+  markup: file_type_markup@2x.png
+  note: file_type_note.svg
+  onenote: file_type_onenote@2x.png
+  powerpoint: file_type_powerpoint@2x.png
+  bibtex: file_type_bibtex.svg
+  tex: file_type_tex.svg
+  text: file_type_text.svg
+  textile: file_type_textile@2x.png
+  todo: file_type_todo.svg
+  word: file_type_word@2x.png
+
+  # Generic
+  accdb: file_type_accdb.png
+  archive: file_type_archive.svg
+  binary: file_type_binary.svg
+  lock: file_type_lock@2x.png
+  preferences: file_type_preferences.svg
+  settings: file_type_settings.svg
+  source: file_type_source.svg
+  windows: file_type_windows.svg
+
+  # Additional languages and tools
+  asciidoc: file_type_asciidoc.svg
+  assembly: file_type_assembly.svg
+  astro:
+    dark: file_type_astro.svg
+    light: file_type_astro_light.svg
+  biome: file_type_biome.svg
+  bun: file_type_bun.svg
+  cmake: file_type_cmake.svg
+  crystal:
+    dark: file_type_crystal.svg
+    light: file_type_crystal_light.svg
+  cuda: file_type_cuda.svg
+  deno: file_type_deno.svg
+  dotenv: file_type_dotenv.svg
+  fsharp: file_type_fsharp.svg
+  gdscript: file_type_gdscript.svg
+  gitlab: file_type_gitlab.svg
+  gleam: file_type_gleam.svg
+  glsl: file_type_glsl.svg
+  gomod: file_type_gomod.svg
+  handlebars: file_type_handlebars.svg
+  hlsl: file_type_hlsl.svg
+  http: file_type_http.svg
+  jenkins: file_type_jenkins.svg
+  just: file_type_just.svg
+  mdx:
+    dark: file_type_mdx.svg
+    light: file_type_mdx_light.svg
+  metal: file_type_metal.svg
+  nix: file_type_nix.svg
+  nunjucks: file_type_nunjucks.svg
+  nx:
+    dark: file_type_nx.svg
+    light: file_type_nx_light.svg
+  objectivec: file_type_objectivec.svg
+  objectivecpp: file_type_objectivecpp.svg
+  odin: file_type_odin.svg
+  org: file_type_org.svg
+  pip: file_type_pip.svg
+  pnpm:
+    dark: file_type_pnpm.svg
+    light: file_type_pnpm_light.svg
+  prisma:
+    dark: file_type_prisma.svg
+    light: file_type_prisma_light.svg
+  protobuf: file_type_protobuf.svg
+  rest: file_type_rest.svg
+  solidity:
+    dark: file_type_solidity.svg
+    light: file_type_solidity_light.svg
+  taskfile: file_type_taskfile.svg
+  templ: file_type_templ.svg
+  jsconfig: file_type_jsconfig.svg
+  tsconfig:
+    dark: file_type_tsconfig.svg
+    light: file_type_tsconfig_light.svg
+  turbo:
+    dark: file_type_turbo.svg
+    light: file_type_turbo_light.svg
+  vb: file_type_vb.svg
+  vite:
+    dark: file_type_vite.svg
+    light: file_type_vite_light.svg
+  vitest:
+    dark: file_type_vitest.svg
+    light: file_type_vitest_light.svg
+  vlang: file_type_vlang.svg
+  wgsl: file_type_wgsl.svg
+  zig: file_type_zig.svg
+
+  # Web tooling
+  browserslist: file_type_browserslist.svg
+  cloudflare: file_type_cloudflare.svg
+  commitlint: file_type_commitlint.svg
+  cypress:
+    dark: file_type_cypress.svg
+    light: file_type_cypress_light.svg
+  drizzle:
+    dark: file_type_drizzle.svg
+    light: file_type_drizzle_light.svg
+  esbuild: file_type_esbuild.svg
+  firebase: file_type_firebase.svg
+  gatsby: file_type_gatsby.svg
+  husky:
+    dark: file_type_husky.svg
+    light: file_type_husky_light.svg
+  jsmap: file_type_jsmap.svg
+  lerna: file_type_lerna.svg
+  lintstagedrc: file_type_lintstagedrc.svg
+  netlify:
+    dark: file_type_netlify.svg
+    light: file_type_netlify_light.svg
+  next:
+    dark: file_type_next.svg
+    light: file_type_next_light.svg
+  nuxt: file_type_nuxt.svg
+  parcel: file_type_parcel.svg
+  playwright: file_type_playwright.svg
+  renovate: file_type_renovate.svg
+  robots: file_type_robots.svg
+  storybook: file_type_storybook.svg
+  swc: file_type_swc.svg
+  testjs: file_type_testjs.svg
+  testts:
+    dark: file_type_testts.svg
+    light: file_type_testts_light.svg
+  typescriptdef:
+    dark: file_type_typescriptdef.svg
+    light: file_type_typescriptdef_light.svg
+  vercel:
+    dark: file_type_vercel.svg
+    light: file_type_vercel_light.svg
+
+extensions:
+  # Archives
+  7z: archive
+  bz2: archive
+  bzip2: archive
+  gz: archive
+  rar: archive
+  tar: archive
+  xz: archive
+  zip: archive
+
+  # Audio
+  aac: audio
+  flac: audio
+  mp3: audio
+  ogg: audio
+  wav: audio
+
+  # Binary
+  a: binary
+  axf: binary
+  bin: binary
+  class: binary
+  cma: binary
+  cmi: binary
+  cmo: binary
+  cmx: binary
+  cmxa: binary
+  com: binary
+  cpl: binary
+  dll: binary
+  drv: binary
+  dylib: binary
+  efi: binary
+  elf: binary
+  exe: binary
+  hex: binary
+  ihex: binary
+  ko: binary
+  lib: binary
+  msi: binary
+  n: binary
+  ndll: binary
+  o: binary
+  obj: binary
+  ocx: binary
+  out: binary
+  pdb: binary
+  pyc: binary
+  pyd: binary
+  pyo: binary
+  s19: binary
+  scr: binary
+  so: binary
+  srec: binary
+  sys: binary
+
+  # C/C++
+  c: c
+  h: c
+  cc: cpp
+  cpp: cpp
+  cppm: cpp
+  cxx: cpp
+  hpp: cpp
+  ixx: cpp
+  mpp: cpp
+
+  # C#
+  cs: csharp
+
+  # Clojure
+  cjm: clojure
+  clj: clojure
+  cljc: clojure
+  cljs: clojure
+  clojure: clojure
+  edn: clojure
+
+  # CoffeeScript
+  coffee: coffeescript
+
+  # ColdFusion
+  cfc: cf
+  cfm: cf
+  lucee: cf
+
+  # CSS
+  css: css
+  less: less
+  pcss: postcss
+  postcss: postcss
+  sass: sass
+  scss: scss
+  styl: stylus
+
+  # CSV
+  csv: csv
+
+  # D
+  d: dlang
+
+  # Dart
+  dart: dart
+
+  # Delphi
+  dfm: binary
+  dpr: binary
+  pas: binary
+
+  # Dotnet
+  csproj: dotnet
+  fsproj: dotnet
+  sln: dotnet
+  vbproj: dotnet
+
+  # Elixir
+  eex: ex
+  ex: ex
+  exs: ex
+
+  # Elm
+  elm: elm
+
+  # Erlang
+  erl: erlang
+
+  # Fonts
+  eot: font
+  otf: font
+  pfa: font
+  pfb: font
+  sfd: font
+  ttf: font
+  woff: font
+  woff2: font
+
+  # Git
+  gitattributes: git
+  gitignore: git
+  gitkeep: git
+  gitmodules: git
+
+  # Go
+  go: go
+
+  # GraphQL
+  gql: gql
+  graphql: gql
+
+  # Graphviz
+  dot: graphviz
+  gv: graphviz
+
+  # Groovy
+  gradle: gradle
+  groovy: groovy
+
+  # Haml
+  haml: haml
+
+  # Haskell
+  gf: haskell
+  has: haskell
+  hs: haskell
+  lhs: haskell
+  lit: haskell
+
+  # Haxe
+  hx: haxe
+  hxml: haxe
+  hxproj: haxe
+
+  # HTML
+  erb: html
+  htm: html
+  html: html
+
+  # Images
+  avif: image
+  bmp: image
+  gif: image
+  ico: image
+  jpeg: image
+  jpg: image
+  png: image
+  svg: image
+  webp: image
+
+  # InDesign
+  indd: indesign
+  indt: indesign
+
+  # Java
+  java: java
+  jsp: jsp
+
+  # JavaScript
+  js: js
+  jsx: jsx
+  mjs: js
+
+  # JSON
+  json: json
+
+  # Julia
+  jl: julia
+  julia: julia
+
+  # Jupyter
+  ipynb: jupyter
+
+  # Kotlin
+  kt: kotlin
+  kts: kotlin
+
+  # Lisp
+  bil: lisp
+  lisp: lisp
+
+  # Liquid
+  liquid: liquid
+
+  # Log
+  log: log
+
+  # Lua
+  lua: lua
+
+  # Markdown
+  markdown: markdown
+  md: markdown
+
+  # Markup
+  dtd: markup
+  xsd: markup
+  xsl: markup
+  xslt: markup
+
+  # MATLAB
+  fig: matlab
+  mat: matlab
+  mex: matlab
+  mexn: matlab
+  mexrs6: matlab
+  mn: matlab
+  mum: matlab
+  mx: matlab
+  mx3: matlab
+  rwd: matlab
+  slddc: matlab
+  slx: matlab
+  smv: matlab
+  tikz: matlab
+  xvc: matlab
+
+  # Maya
+  ma: maya
+  mb: maya
+
+  # Mustache
+  mst: mustache
+  mustache: mustache
+
+  # Nginx
+  nginx: nginx
+  nginxconf: nginx
+
+  # NSIS
+  nsi: nsis
+  nsh: nsis
+
+  # OCaml
+  merlin: ocaml
+  ml: ocaml
+  mli: ocaml
+  mll: ocaml
+  mly: ocaml
+  ocamlmakefile: ocaml
+
+  # Office
+  doc: word
+  docx: word
+  xls: excel
+  xlsx: excel
+  ppt: powerpoint
+  pptx: powerpoint
+  one: onenote
+
+  # Perl
+  perl: perl
+  pl: perl
+  pm: perl
+
+  # PHP
+  blade.php: blade
+  phar: php
+  php: php
+  php1: php
+  php2: php
+  php3: php
+  php4: php
+  php5: php
+  php6: php
+  phps: php
+  phpsa: php
+  phpt: php
+  phtml: php
+
+  # Plist
+  plist: plist
+
+  # Preferences
+  prefs: preferences
+
+  # PowerShell
+  ps1: powershell
+  psd1: powershell
+  psm1: powershell
+
+  # Pug
+  jade: pug
+  jade-lintrc: pug
+  pug: pug
+  pug-lintrc: pug
+
+  # Puppet
+  epp: puppet
+  pp: puppet
+
+  # Python
+  py: python
+  pyw: python
+
+  # R
+  r: R
+
+  # ReasonML
+  re: reasonml
+
+  # Riot
+  riot: riot
+  tag: riot
+
+  # Ruby
+  gemspec: ruby
+  rb: ruby
+
+  # Rust
+  rs: rust
+
+  # Scala
+  scala: scala
+
+  # Shell
+  bash: shell
+  bat: shell
+  cmd: shell
+  sh: shell
+  zsh: shell
+  fish: shell
+
+  # Sketch
+  sketch: sketch
+
+  # Slim
+  slim: slim
+
+  # SQL
+  sql: sql
+  sqlite: sql
+
+  # Stata
+  ado: stata
+  do: stata
+  dta: stata
+
+  # Svelte
+  svelte: svelte
+
+  # Swift
+  swift: swift
+
+  # Tcl
+  tcl: tcl
+
+  # BibTeX
+  bib: bibtex
+  bst: bibtex
+
+  # EJS
+  ejs: ejs
+
+  # Nim
+  nim: nim
+  nimble: nim
+  nims: nim
+
+  # Robot Framework
+  resource: robotframework
+  robot: robotframework
+
+  # Terraform
+  hcl: terraform
+  tf: terraform
+  tfstate: terraform
+  tfvars: terraform
+
+  # TeX
+  cls: tex
+  dtx: tex
+  ins: tex
+  ltx: tex
+  sty: tex
+  tex: tex
+  texi: tex
+
+  # Text
+  txt: text
+
+  # TOML
+  toml: toml
+
+  # Twig
+  twig: twig
+
+  # TypeScript
+  mts: typescript
+  ts: typescript
+  tsx: tsx
+
+  # Video
+  avi: video
+  mkv: video
+  mov: video
+  mp4: video
+  webm: video
+
+  # Vim
+  vim: vim
+  vimrc: vim
+
+  # Vue
+  vue: vue
+
+  # WebAssembly
+  wasm: wasm
+  wat: wasm
+
+  # Windows
+  reg: windows
+
+  # Misc
+  accdb: accdb
+  ai: ai
+  aep: ae
+  prproj: premiere
+  angular: angular
+  app: applescript
+  as: actionscript
+  bak: settings
+  bowerrc: bower
+  dockerignore: docker
+  enc: license
+  htaccess: apache
+  htpasswd: apache
+  lsl: lsl
+  npmignore: npm
+  nvmrc: nodejs
+  pdf: pdf
+  procfile: procfile
+  psd: psd
+  qtpl: source
+  snap: jest
+  textile: textile
+  webmanifest: settings
+  yaml: yaml
+  yml: yaml
+
+  # Additional languages and tools
+  adoc: asciidoc
+  asciidoc: asciidoc
+  asm: assembly
+  astro: astro
+  cfg: settings
+  cmake: cmake
+  conf: settings
+  cr: crystal
+  cu: cuda
+  cuh: cuda
+  env: dotenv
+  frag: glsl
+  fs: fsharp
+  fsi: fsharp
+  fsx: fsharp
+  gd: gdscript
+  gleam: gleam
+  glsl: glsl
+  handlebars: handlebars
+  hbs: handlebars
+  heex: ex
+  hlsl: hlsl
+  hrl: erlang
+  http: http
+  ini: settings
+  json5: json
+  jsonc: json
+  mdx: mdx
+  metal: metal
+  mk: settings
+  mm: objectivecpp
+  nix: nix
+  njk: nunjucks
+  odin: odin
+  org: org
+  prisma: prisma
+  proto: protobuf
+  pyi: python
+  rst: rest
+  s: assembly
+  sol: solidity
+  templ: templ
+  vb: vb
+  vert: glsl
+  wgsl: wgsl
+  xml: markup
+  zig: zig
+  zon: zig
+
+  # Web tooling
+  cjs: js
+  cts: typescript
+  d.cts: typescriptdef
+  d.mts: typescriptdef
+  d.ts: typescriptdef
+  graphqls: gql
+  map: jsmap
+  spec.cjs: testjs
+  spec.cts: testts
+  spec.js: testjs
+  spec.jsx: testjs
+  spec.mjs: testjs
+  spec.mts: testts
+  spec.ts: testts
+  spec.tsx: testts
+  test.cjs: testjs
+  test.cts: testts
+  test.js: testjs
+  test.jsx: testjs
+  test.mjs: testjs
+  test.mts: testts
+  test.ts: testts
+  test.tsx: testts
+
+filenames:
+  # Babel
+  .babelrc: babel
+
+  # Bower
+  bower.json: bower
+
+  # Cargo
+  Cargo.lock: cargo
+  Cargo.toml: cargo
+
+  # CircleCI
+  .circleci: circleci
+  circle.yml: circleci
+
+  agents.md: agents
+  AGENTS.md: agents
+
+  claude.md: claude
+  CLAUDE.md: claude
+
+  # Composer
+  composer.json: composer
+  composer.lock: composer
+
+  # Docker
+  dockerfile: docker
+  Dockerfile: docker
+  dockerignore: docker
+  docker-compose.yml: docker
+  docker-compose.yaml: docker
+  compose.yml: docker
+  compose.yaml: docker
+
+  # EditorConfig
+  .editorconfig: editorconfig
+
+  # ESLint
+  .eslintrc: eslint
+  .eslintrc.js: eslint
+  .eslintrc.json: eslint
+  .eslintrc.yaml: eslint
+  .eslintrc.yml: eslint
+
+  # Git
+  .gitignore: git
+  .gitattributes: git
+
+  # Grunt/Gulp
+  gruntfile.js: gruntfile
+  Gruntfile.js: gruntfile
+  gulpfile.js: gulpfile
+  Gulpfile.js: gulpfile
+
+  # Haxe
+  checkstyle.json: haxe
+  haxelib.json: haxe
+
+  # License
+  license: license
+  LICENSE: license
+  license.md: license
+  LICENSE.md: license
+
+  # Lock files
+  package-lock.json: npm
+  yarn.lock: yarn
+  Gemfile.lock: lock
+  poetry.lock: lock
+
+  # Node/NPM
+  package.json: npm
+  .nvmrc: nodejs
+  .node-version: nodejs
+
+  # Nginx
+  nginx.conf: nginx
+
+  # Prettier
+  .prettierignore: prettier
+  .prettierrc: prettier
+  .prettierrc.js: prettier
+  .prettierrc.json: prettier
+  .prettierrc.yaml: prettier
+  .prettierrc.yml: prettier
+
+  # Procfile
+  Procfile: procfile
+
+  # Pug
+  .jade-lint.json: pug
+  .pug-lintrc.js: pug
+  .pug-lintrc.json: pug
+
+  # Rails
+  config.ru: rails
+  Rakefile: rails
+
+  # Rollup
+  rollup.config.js: rollup
+  rollup.config.mjs: rollup
+  rollup.config.ts: rollup
+
+  # Settings
+  .travis.yml: settings
+  gemfile: settings
+  Gemfile: settings
+  ionic.config.json: settings
+  ionic.project: settings
+  makefile: settings
+  Makefile: settings
+  vagrantfile: settings
+  Vagrantfile: settings
+
+  # Stylelint
+  .stylelintrc: stylelint
+  .stylelintrc.js: stylelint
+  .stylelintrc.json: stylelint
+  stylelint.config.js: stylelint
+
+  # Sublime
+  .sublime-project: sublime
+  .sublime-workspace: sublime
+
+  # Tailwind
+  tailwind.config.js: tailwind
+  tailwind.config.ts: tailwind
+  tailwind.config.css: tailwind
+
+  # Tern
+  .tern-project: tern
+
+  # TODO
+  TODO: todo
+  TODO.md: todo
+  TODO.txt: todo
+
+  # Webpack
+  webpack.config.js: webpack
+  webpack.config.babel.js: webpack
+  webpack.config.ts: webpack
+
+  # Yarn
+  .yarnrc: yarn
+  .yarnrc.yml: yarn
+
+  # Additional tools
+  .env: dotenv
+  .env.local: dotenv
+  .env.example: dotenv
+  .env.development: dotenv
+  .env.production: dotenv
+  .env.test: dotenv
+  CMakeLists.txt: cmake
+  justfile: just
+  Justfile: just
+  .justfile: just
+  Taskfile.yml: taskfile
+  Taskfile.yaml: taskfile
+  Jenkinsfile: jenkins
+  .gitlab-ci.yml: gitlab
+  pnpm-lock.yaml: pnpm
+  pnpm-workspace.yaml: pnpm
+  bun.lock: bun
+  bun.lockb: bun
+  bunfig.toml: bun
+  turbo.json: turbo
+  nx.json: nx
+  biome.json: biome
+  biome.jsonc: biome
+  deno.json: deno
+  deno.jsonc: deno
+  deno.lock: deno
+  tsconfig.json: tsconfig
+  jsconfig.json: jsconfig
+  pyproject.toml: python
+  requirements.txt: pip
+  go.mod: gomod
+  go.sum: gomod
+  go.work: gomod
+  flake.nix: nix
+  flake.lock: nix
+  vite.config.js: vite
+  vite.config.ts: vite
+  vite.config.mjs: vite
+  vite.config.mts: vite
+  vitest.config.js: vitest
+  vitest.config.ts: vitest
+  vitest.config.mjs: vitest
+  vitest.config.mts: vitest
+
+  # Web tooling
+  next.config.js: next
+  next.config.mjs: next
+  next.config.cjs: next
+  next.config.ts: next
+  next.config.mts: next
+  nuxt.config.js: nuxt
+  nuxt.config.mjs: nuxt
+  nuxt.config.cjs: nuxt
+  nuxt.config.ts: nuxt
+  nuxt.config.mts: nuxt
+  svelte.config.js: svelte
+  svelte.config.mjs: svelte
+  svelte.config.cjs: svelte
+  svelte.config.ts: svelte
+  svelte.config.mts: svelte
+  astro.config.js: astro
+  astro.config.mjs: astro
+  astro.config.cjs: astro
+  astro.config.ts: astro
+  astro.config.mts: astro
+  eslint.config.js: eslint
+  eslint.config.mjs: eslint
+  eslint.config.cjs: eslint
+  eslint.config.ts: eslint
+  eslint.config.mts: eslint
+  jest.config.js: jest
+  jest.config.mjs: jest
+  jest.config.cjs: jest
+  jest.config.ts: jest
+  jest.config.mts: jest
+  postcss.config.js: postcss
+  postcss.config.mjs: postcss
+  postcss.config.cjs: postcss
+  postcss.config.ts: postcss
+  postcss.config.mts: postcss
+  babel.config.js: babel
+  babel.config.cjs: babel
+  babel.config.mjs: babel
+  babel.config.json: babel
+  tailwind.config.mjs: tailwind
+  tailwind.config.cjs: tailwind
+  playwright.config.js: playwright
+  playwright.config.mjs: playwright
+  playwright.config.cjs: playwright
+  playwright.config.ts: playwright
+  playwright.config.mts: playwright
+  cypress.config.js: cypress
+  cypress.config.mjs: cypress
+  cypress.config.cjs: cypress
+  cypress.config.ts: cypress
+  cypress.config.mts: cypress
+  commitlint.config.js: commitlint
+  commitlint.config.mjs: commitlint
+  commitlint.config.cjs: commitlint
+  commitlint.config.ts: commitlint
+  commitlint.config.mts: commitlint
+  drizzle.config.js: drizzle
+  drizzle.config.mjs: drizzle
+  drizzle.config.cjs: drizzle
+  drizzle.config.ts: drizzle
+  drizzle.config.mts: drizzle
+  gatsby-config.js: gatsby
+  gatsby-config.mjs: gatsby
+  gatsby-config.cjs: gatsby
+  gatsby-config.ts: gatsby
+  gatsby-config.mts: gatsby
+  gatsby-node.js: gatsby
+  gatsby-node.mjs: gatsby
+  gatsby-node.cjs: gatsby
+  gatsby-node.ts: gatsby
+  gatsby-node.mts: gatsby
+  gatsby-browser.js: gatsby
+  gatsby-browser.mjs: gatsby
+  gatsby-browser.cjs: gatsby
+  gatsby-browser.ts: gatsby
+  gatsby-browser.mts: gatsby
+  esbuild.config.js: esbuild
+  esbuild.config.mjs: esbuild
+  esbuild.config.cjs: esbuild
+  esbuild.config.ts: esbuild
+  esbuild.config.mts: esbuild
+  angular.json: angular
+  .npmrc: npm
+  .babelrc.json: babel
+  .postcssrc: postcss
+  .postcssrc.json: postcss
+  vercel.json: vercel
+  .vercelignore: vercel
+  netlify.toml: netlify
+  wrangler.toml: cloudflare
+  wrangler.json: cloudflare
+  wrangler.jsonc: cloudflare
+  .swcrc: swc
+  .parcelrc: parcel
+  lerna.json: lerna
+  renovate.json: renovate
+  renovate.json5: renovate
+  .renovaterc: renovate
+  .renovaterc.json: renovate
+  .browserslistrc: browserslist
+  browserslist: browserslist
+  .huskyrc: husky
+  .lintstagedrc: lintstagedrc
+  .lintstagedrc.json: lintstagedrc
+  lint-staged.config.js: lintstagedrc
+  lint-staged.config.mjs: lintstagedrc
+  .commitlintrc: commitlint
+  .commitlintrc.json: commitlint
+  firebase.json: firebase
+  .firebaserc: firebase
+  manifest.json: settings
+  robots.txt: robots

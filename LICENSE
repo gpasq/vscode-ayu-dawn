@@ -19,3 +19,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+The palette in `colors/` and the code in `src/palette/` come from ayu-colors
+(https://github.com/ayu-theme/ayu-colors), also under the MIT License:
+
+Copyright (c) Konstantin Pschera <me@kons.ch> (kons.ch)
