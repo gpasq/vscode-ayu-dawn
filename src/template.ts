@@ -1,6 +1,6 @@
 import * as ayu from './palette'
 
-export type SchemeName = 'light' | 'dark' | 'mirage'
+export type SchemeName = 'light' | 'mirage'
 
 const terminalColors = {
   light: {
@@ -8,12 +8,6 @@ const terminalColors = {
     white: '#c7c7c7',
     brightBlack: '#686868',
     brightWhite: '#d1d1d1'
-  },
-  dark: {
-    black: ayu.dark.ui.line.hex(),
-    white: '#c7c7c7',
-    brightBlack: '#686868',
-    brightWhite: '#ffffff'
   },
   mirage: {
     black: '#171b24',
@@ -353,19 +347,13 @@ export default (variant: SchemeName, bordered: boolean) => {
       'surface.foreground': scheme.ui.text.normal.hex(),
       'surface.border': !bordered
         ? scheme.ui.bg.hex()
-        : variant === 'dark'
-          ? scheme.ui.line.darken(0.2).hex()
-          : scheme.surface.sunk.darken(0.3).hex(),
+        : scheme.surface.sunk.darken(0.3).hex(),
       'editor.border': !bordered
         ? scheme.unbordered.editor.hex()
-        : variant === 'dark'
-          ? scheme.ui.line.darken(0.2).hex()
-          : scheme.surface.sunk.darken(0.3).hex(),
+        : scheme.surface.sunk.darken(0.3).hex(),
       'modernPanel.border': !bordered
         ? scheme.ui.bg.hex()
-        : variant === 'dark'
-          ? scheme.ui.line.darken(0.2).hex()
-          : scheme.surface.sunk.darken(0.3).hex(),
+        : scheme.surface.sunk.darken(0.3).hex(),
       'modernSash.gripForeground': scheme.ui.fg.alpha(0.4).hex(),
       'modernTab.activeBackground': scheme.ui.selection.active.hex(),
       'modernTab.activeForeground': scheme.ui.text.active.hex(),
@@ -396,9 +384,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'modernActivityBar.inactiveBackground': scheme.ui.bg.hex(),
       'modernActivityBar.border': !bordered
         ? scheme.ui.bg.hex()
-        : variant === 'dark'
-          ? scheme.ui.line.darken(0.2).hex()
-          : scheme.surface.sunk.darken(0.3).hex(),
+        : scheme.surface.sunk.darken(0.3).hex(),
       'modernActivityBarItem.activeBackground': scheme.ui.selection.active.hex(),
       'modernActivityBarItem.activeForeground': scheme.ui.text.active.hex(),
       'modernActivityBarItem.hoverBackground': scheme.ui.selection.active

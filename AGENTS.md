@@ -1,11 +1,11 @@
 # ayu for VS Code
 
-Ayu Dawn, a fork of the VS Code port of ayu: three color themes (Light, Mirage and Dark) and a file icon theme. The palette and icons were brought in from [ayu-colors](https://github.com/ayu-theme/ayu-colors) and now live here.
+Ayu Dawn, a fork of the VS Code port of ayu: two color themes (Light and Mirage) and a file icon theme. The palette and icons were brought in from [ayu-colors](https://github.com/ayu-theme/ayu-colors) and now live here.
 
 ## Palette
 
 - `colors/<variant>.yaml` defines each variant's colors. A `palette` section generates five lightness steps (`l1` to `l5`) per hue within `range`, and every other value is a hex or a `$path.to.color` reference, optionally followed by modifiers: `A` sets alpha, `L` and `C` set OKLCH lightness and chroma, and a leading `+` or `-` shifts them instead.
-- `src/palette/` loads the YAML (`yaml-parser.ts`, color math in `color.ts`) and exports the `light`, `mirage` and `dark` schemes and the icon map. `scheme.d.ts` types the schemes by hand: add a key there when you add one to the YAML, in all three files.
+- `src/palette/` loads the YAML (`yaml-parser.ts`, color math in `color.ts`) and exports the `light` and `mirage` schemes and the icon map. `scheme.d.ts` types the schemes by hand: add a key there when you add one to the YAML, in both files.
 - `colors/icons.yaml` maps file names and extensions to the image files in `icons/`.
 
 ## Generated files
@@ -34,7 +34,7 @@ The **Preview theme** launch configuration (F5) opens an Extension Development H
 - Colors come from the scheme's semantic groups (`ui`, `editor`, `syntax`, `vcs`, `common`), with variations derived through alpha or lightness. Apart from a few terminal greys and the translucent black of `statusBarItem.prominentHoverBackground` there are no hex literals. When the theme needs a color the scheme lacks, add it to the palette YAML.
 - `darken(x)` and `brighten(x)` shift OKLCH lightness by `x / 10`. `alpha(x)` sets opacity.
 - VS Code's modern UI, the floating "islands" layout, uses its own tokens (`modern*`, `surface.*`, `editor.border`). Any the theme leaves unset fall back to derivations of classic tokens, so they change whenever those do. Check them in the preview.
-- Check every change in all three variants, bordered and unbordered, in both the classic and the modern UI. Unbordered themes take the editor, title bar, status bar, modern UI shell and terminal backgrounds from the palette's `unbordered` group (the side bar background in Light and Dark, the bordered colors in Mirage), and hide every divider and card outline by painting it in the color of the surface around it. Light diverges from Mirage and Dark in places (badge foreground, terminal greys).
+- Check every change in both variants, bordered and unbordered, in both the classic and the modern UI. Unbordered themes take the editor, title bar, status bar, modern UI shell and terminal backgrounds from the palette's `unbordered` group (the side bar background in Light, the bordered colors in Mirage), and hide every divider and card outline by painting it in the color of the surface around it. Light diverges from Mirage in places (badge foreground, terminal greys).
 
 ## Tooling constraints
 

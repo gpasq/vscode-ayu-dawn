@@ -1,7 +1,7 @@
 {
   "name": "ayu-dawn",
   "displayName": "Ayu Dawn",
-  "description": "A simple theme with bright colors and comes in three versions — dark, light and mirage for all day long comfortable work.",
+  "description": "A simple theme with bright colors that comes in two versions, light and mirage, for comfortable work all day long.",
   "version": "1.5.0",
   "publisher": "GregPasquariello",
   "author": "Greg Pasquariello",
@@ -42,12 +42,6 @@
         "path": "./ayu-dawn-mirage.json"
       },
       {
-        "id": "Ayu Dawn Dark Bordered",
-        "label": "Ayu Dawn Dark",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dawn-dark.json"
-      },
-      {
         "id": "Ayu Dawn Light",
         "label": "Ayu Dawn Light Unbordered",
         "uiTheme": "vs",
@@ -58,12 +52,6 @@
         "label": "Ayu Dawn Mirage Unbordered",
         "uiTheme": "vs-dark",
         "path": "./ayu-dawn-mirage-unbordered.json"
-      },
-      {
-        "id": "Ayu Dawn Dark",
-        "label": "Ayu Dawn Dark Unbordered",
-        "uiTheme": "vs-dark",
-        "path": "./ayu-dawn-dark-unbordered.json"
       }
     ],
     "iconThemes": [

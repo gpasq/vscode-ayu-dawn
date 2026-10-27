@@ -19,7 +19,7 @@
 
 ---
 
-**Ayu Dawn** is a bright color theme based on [ayu](https://github.com/ayu-theme/vscode-ayu). It comes in three versions, _dark_, _mirage_ and _light_, for comfortable work all day long.
+**Ayu Dawn** is a bright color theme based on [ayu](https://github.com/ayu-theme/vscode-ayu). It comes in two versions, _mirage_ and _light_, for comfortable work all day long.
 
 ## Install
 
@@ -47,13 +47,9 @@ Each variant also comes as **Unbordered**: no dividers between the side bar, edi
 
 ![Mirage](assets/mirage.png)
 
-### Dark
-
-![Dark](assets/dark.png)
-
 ## What's included
 
-- **6 color themes**: Light, Mirage, and Dark, each bordered and unbordered, with support for VS Code's modern UI
+- **4 color themes**: Light and Mirage, each bordered and unbordered, with support for VS Code's modern UI
 - **File icons**: Custom icon theme included
 - **[Iosevka font](https://github.com/gpasq/vscode-ayu-dawn/tree/master/fonts)**: Bundled for a consistent look
 

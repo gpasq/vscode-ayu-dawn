@@ -7,7 +7,7 @@ const { version, colors } = loadInstalledColors()
 const registered = new Map(colors.map((c) => [c.id, c]))
 
 const defined = new Set<string>()
-for (const variant of ['light', 'dark', 'mirage'] as SchemeName[]) {
+for (const variant of ['light', 'mirage'] as SchemeName[]) {
   for (const bordered of [true, false]) {
     Object.keys(template(variant, bordered).colors).forEach((key) => defined.add(key))
   }

@@ -6,7 +6,7 @@ import iconTemplate from './icon-template'
 const cwd = process.cwd()
 
 // Generate color themes
-for (const variant of ['light', 'dark', 'mirage'] as SchemeName[]) {
+for (const variant of ['light', 'mirage'] as SchemeName[]) {
   writeFileSync(
     join(cwd, `ayu-dawn-${variant}.json`),
     JSON.stringify(template(variant, true), null, '\t')

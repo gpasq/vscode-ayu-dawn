@@ -24,7 +24,6 @@ const loadScheme = (name: string) =>
 
 export const light = loadScheme('light')
 export const mirage = loadScheme('mirage')
-export const dark = loadScheme('dark')
 
 type IconFile = string | { dark: string; light: string }
 
