@@ -1,7 +1,7 @@
 {
   "name": "ayu-dawn",
   "displayName": "Ayu Dawn",
-  "description": "A simple theme with bright colors that comes in two versions, light and mirage, for comfortable work all day long. Mirage is exactly like Ayu Mirage, but with a slightly paler background and brighter application text and icons, which I find easier on my eyes.",
+  "description": "Ayu Mirage with a slightly paler background and brighter application text and icons, which I find easier on my eyes.",
   "version": "1.0.1",
   "publisher": "GregPasquariello",
   "author": "Greg Pasquariello",
@@ -21,12 +21,23 @@
     "Themes"
   ],
   "keywords": [
-    "icon-theme",
     "theme",
-    "ayu"
+    "color-theme",
+    "dark",
+    "dark-theme",
+    "ayu",
+    "ayu-mirage",
+    "mirage",
+    "low-contrast",
+    "easy-on-the-eyes",
+    "icon-theme"
   ],
   "homepage": "https://github.com/gpasq/vscode-ayu-dawn",
   "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#242735",
+    "theme": "dark"
+  },
   "contributes": {
     "themes": [
       {

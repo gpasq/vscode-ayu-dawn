@@ -4,6 +4,7 @@
 
 `2026-10-27`
 
+- A shorter Marketplace description, more search keywords, and a listing banner in the Mirage editor color
 - No changes to the themes or icons
 
 ## 1.0.0
