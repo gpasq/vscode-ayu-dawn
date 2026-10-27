@@ -19,7 +19,7 @@
 
 ---
 
-**Ayu Dawn** is a bright color theme based on [ayu](https://github.com/ayu-theme/vscode-ayu). It comes in two versions, _mirage_ and _light_, for comfortable work all day long. Mirage is exactly like Ayu Mirage, but with a slightly paler background that I find easier on my eyes.
+**Ayu Dawn** is a bright color theme based on [ayu](https://github.com/ayu-theme/vscode-ayu). It comes in two versions, _mirage_ and _light_, for comfortable work all day long. Mirage is exactly like Ayu Mirage, but with a slightly paler background and brighter application text and icons, which I find easier on my eyes.
 
 ## Install
 
