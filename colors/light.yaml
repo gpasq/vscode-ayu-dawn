@@ -104,3 +104,7 @@ common:
     tint: F29718
     on: $common.accent.tint -L0.29
   error: E65050
+unbordered:
+  editor: $ui.bg
+  shell: $ui.bg
+  terminal: $ui.bg

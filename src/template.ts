@@ -151,7 +151,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'sideBarStickyScroll.shadow': scheme.ui.panel.shadow.hex(),
 
       // MINIMAP
-      'minimap.background': bordered ? scheme.editor.bg.hex() : scheme.ui.bg.hex(),
+      'minimap.background': bordered ? scheme.editor.bg.hex() : scheme.unbordered.editor.hex(),
       'minimap.selectionHighlight': scheme.editor.selection.active.hex(),
       'minimap.errorHighlight': scheme.common.error.hex(),
       'minimap.findMatchHighlight': scheme.editor.findMatch.active.hex(),
@@ -166,7 +166,7 @@ export default (variant: SchemeName, bordered: boolean) => {
         ? scheme.ui.bg.darken(0.1).hex()
         : scheme.ui.bg.hex(),
       'editorGroupHeader.tabsBorder': bordered ? scheme.ui.line.hex() : scheme.ui.bg.hex(),
-      'tab.activeBackground': bordered ? scheme.editor.bg.hex() : scheme.ui.bg.hex(),
+      'tab.activeBackground': bordered ? scheme.editor.bg.hex() : scheme.unbordered.editor.hex(),
       'tab.activeForeground': scheme.ui.text.active.hex(),
       'tab.border': bordered ? scheme.ui.line.hex() : scheme.ui.bg.hex(),
       'tab.activeBorder': bordered ? undefined : scheme.common.accent.tint.hex(),
@@ -179,7 +179,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'tab.unfocusedInactiveForeground': scheme.ui.text.normal.hex(),
 
       // EDITOR
-      'editor.background': bordered ? scheme.editor.bg.hex() : scheme.ui.bg.hex(),
+      'editor.background': bordered ? scheme.editor.bg.hex() : scheme.unbordered.editor.hex(),
       'editor.foreground': scheme.editor.fg.hex(),
       'editorLineNumber.foreground': scheme.editor.lineNumber.normal.hex(),
       'editorLineNumber.activeForeground': scheme.editor.lineNumber.active.hex(),
@@ -326,9 +326,9 @@ export default (variant: SchemeName, bordered: boolean) => {
       'panelStickyScroll.shadow': scheme.ui.panel.shadow.hex(),
 
       // STATUS BAR
-      'statusBar.background': bordered ? scheme.surface.sunk.hex() : scheme.ui.bg.hex(),
+      'statusBar.background': bordered ? scheme.surface.sunk.hex() : scheme.unbordered.shell.hex(),
       'statusBar.foreground': scheme.ui.text.normal.hex(),
-      'statusBar.border': bordered ? scheme.ui.line.hex() : scheme.ui.bg.hex(),
+      'statusBar.border': bordered ? scheme.ui.line.hex() : scheme.unbordered.shell.hex(),
       'statusBar.debuggingBackground': scheme.syntax.operator.hex(),
       'statusBar.debuggingForeground': scheme.editor.bg.hex(),
       'statusBar.noFolderBackground': scheme.ui.panel.bg.hex(),
@@ -341,14 +341,14 @@ export default (variant: SchemeName, bordered: boolean) => {
       'statusBarItem.remoteForeground': scheme.common.accent.on.hex(),
 
       // TITLE BAR
-      'titleBar.activeBackground': bordered ? scheme.surface.sunk.hex() : scheme.ui.bg.hex(),
-      'titleBar.inactiveBackground': bordered ? scheme.surface.sunk.hex() : scheme.ui.bg.hex(),
+      'titleBar.activeBackground': bordered ? scheme.surface.sunk.hex() : scheme.unbordered.shell.hex(),
+      'titleBar.inactiveBackground': bordered ? scheme.surface.sunk.hex() : scheme.unbordered.shell.hex(),
       'titleBar.activeForeground': scheme.ui.text.normal.hex(),
       'titleBar.inactiveForeground': scheme.ui.text.normal.alpha(0.7).hex(),
-      'titleBar.border': bordered ? scheme.ui.line.hex() : scheme.ui.bg.hex(),
+      'titleBar.border': bordered ? scheme.ui.line.hex() : scheme.unbordered.shell.hex(),
 
-      'modernUI.shellBackground': bordered ? scheme.surface.sunk.hex() : scheme.ui.bg.hex(),
-      'modernUI.inactiveShellBackground': bordered ? scheme.surface.sunk.hex() : scheme.ui.bg.hex(),
+      'modernUI.shellBackground': bordered ? scheme.surface.sunk.hex() : scheme.unbordered.shell.hex(),
+      'modernUI.inactiveShellBackground': bordered ? scheme.surface.sunk.hex() : scheme.unbordered.shell.hex(),
       'surface.background': scheme.ui.bg.hex(),
       'surface.foreground': scheme.ui.text.normal.hex(),
       'surface.border': !bordered
@@ -357,7 +357,7 @@ export default (variant: SchemeName, bordered: boolean) => {
           ? scheme.ui.line.darken(0.2).hex()
           : scheme.surface.sunk.darken(0.3).hex(),
       'editor.border': !bordered
-        ? scheme.ui.bg.hex()
+        ? scheme.unbordered.editor.hex()
         : variant === 'dark'
           ? scheme.ui.line.darken(0.2).hex()
           : scheme.surface.sunk.darken(0.3).hex(),
@@ -469,7 +469,7 @@ export default (variant: SchemeName, bordered: boolean) => {
       'keybindingLabel.bottomBorder': scheme.editor.fg.alpha(0.1).hex(),
 
       // TERMINAL
-      'terminal.background': bordered ? scheme.terminal.bg.hex() : scheme.ui.bg.hex(),
+      'terminal.background': bordered ? scheme.terminal.bg.hex() : scheme.unbordered.terminal.hex(),
       'terminal.foreground': scheme.ui.text.active.hex(),
       'terminal.ansiBlack': terminalColors[variant].black,
       'terminal.ansiRed': scheme.syntax.markup.darken(0.1).hex(),

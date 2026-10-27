@@ -92,3 +92,7 @@ common:
     tint: FFCC66
     on: $common.accent.tint -L0.39
   error: FF6666
+unbordered:
+  editor: $editor.bg
+  shell: $surface.sunk
+  terminal: $terminal.bg

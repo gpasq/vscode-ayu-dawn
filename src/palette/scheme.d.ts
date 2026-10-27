@@ -128,4 +128,11 @@ export interface Scheme {
     }
     error: Color
   }
+  /** Backgrounds of the unbordered themes, which hide every divider */
+  unbordered: {
+    editor: Color
+    /** Title bar, status bar and modern UI shell */
+    shell: Color
+    terminal: Color
+  }
 }

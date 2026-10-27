@@ -92,3 +92,7 @@ common:
     tint: E6B450
     on: $common.accent.tint -L0.31
   error: D95757
+unbordered:
+  editor: $ui.bg
+  shell: $ui.bg
+  terminal: $ui.bg

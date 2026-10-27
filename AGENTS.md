@@ -34,7 +34,7 @@ The **Preview theme** launch configuration (F5) opens an Extension Development H
 - Colors come from the scheme's semantic groups (`ui`, `editor`, `syntax`, `vcs`, `common`), with variations derived through alpha or lightness. Apart from a few terminal greys and the translucent black of `statusBarItem.prominentHoverBackground` there are no hex literals. When the theme needs a color the scheme lacks, add it to the palette YAML.
 - `darken(x)` and `brighten(x)` shift OKLCH lightness by `x / 10`. `alpha(x)` sets opacity.
 - VS Code's modern UI, the floating "islands" layout, uses its own tokens (`modern*`, `surface.*`, `editor.border`). Any the theme leaves unset fall back to derivations of classic tokens, so they change whenever those do. Check them in the preview.
-- Check every change in all three variants, bordered and unbordered, in both the classic and the modern UI. Unbordered themes use the side bar background for the editor, title bar, status bar and modern UI shell, and hide every divider and card outline by painting it in that same color. Light diverges from Mirage and Dark in places (badge foreground, terminal greys).
+- Check every change in all three variants, bordered and unbordered, in both the classic and the modern UI. Unbordered themes take the editor, title bar, status bar, modern UI shell and terminal backgrounds from the palette's `unbordered` group (the side bar background in Light and Dark, the bordered colors in Mirage), and hide every divider and card outline by painting it in the color of the surface around it. Light diverges from Mirage and Dark in places (badge foreground, terminal greys).
 
 ## Tooling constraints
 
