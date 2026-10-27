@@ -1,6 +1,6 @@
 node_modules
 assets
-!assets/logo.png
+!assets/icon.png
 test
 package-lock.json
 .vscode

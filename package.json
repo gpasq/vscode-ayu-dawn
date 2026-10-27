@@ -26,7 +26,7 @@
     "ayu"
   ],
   "homepage": "https://github.com/gpasq/vscode-ayu-dawn",
-  "icon": "assets/logo.png",
+  "icon": "assets/icon.png",
   "contributes": {
     "themes": [
       {
