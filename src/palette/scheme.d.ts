@@ -95,6 +95,12 @@ export interface Scheme {
   }
   ui: {
     fg: Color
+    /** Activity bar icons: the selected view, the others, and the bar placed at the top */
+    activityBar: {
+      active: Color
+      inactive: Color
+      top: Color
+    }
     /** Application text: normal for most labels, active for selected and focused items */
     text: {
       normal: Color

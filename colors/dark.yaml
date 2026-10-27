@@ -69,6 +69,10 @@ editor:
     normal: $ui.fg A0.26
 ui:
   fg: 5A6378
+  activityBar:
+    active: $ui.fg A0.8
+    inactive: $ui.fg A0.6
+    top: $ui.fg +L0.05
   text:
     normal: $ui.fg
     active: $editor.fg

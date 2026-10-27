@@ -131,14 +131,13 @@ export default (variant: SchemeName, bordered: boolean) => {
 
       // ACTIVITY BAR
       'activityBar.background': scheme.ui.bg.hex(),
-      'activityBar.foreground': scheme.ui.fg.alpha(0.8).hex(),
-      'activityBar.inactiveForeground': scheme.ui.fg.alpha(0.6).hex(),
+      'activityBar.foreground': scheme.ui.activityBar.active.hex(),
+      'activityBar.inactiveForeground': scheme.ui.activityBar.inactive.hex(),
       'activityBar.border': bordered ? scheme.ui.line.hex() : scheme.ui.bg.hex(),
       'activityBar.activeBorder': scheme.common.accent.tint.hex(),
       'activityBarBadge.background': scheme.common.accent.tint.hex(),
       'activityBarBadge.foreground': scheme.common.accent.on.hex(),
-      'activityBarTop.foreground':
-        variant == 'light' ? scheme.ui.fg.darken(0.3).hex() : scheme.ui.fg.brighten(0.5).hex(),
+      'activityBarTop.foreground': scheme.ui.activityBar.top.hex(),
       'activityBarTop.activeBorder': scheme.common.accent.tint.hex(),
 
       // SIDE BAR
