@@ -1,12 +1,18 @@
 # Changelog
 
-## 1.0.1
+## 1.0.2
 
 `2026-10-27`
 
 - A shorter Marketplace description, more search keywords, and a listing banner in the Mirage editor color
 - Mirage is listed before Light in the theme picker and on theme sites
 - No changes to the theme colors or icons
+
+## 1.0.1
+
+`2026-10-27`
+
+- No changes to the themes or icons
 
 ## 1.0.0
 
